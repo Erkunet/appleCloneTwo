@@ -7,3 +7,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.BG-link {
+    background-color: black;
+}
+
+.BG-link a{
+    color: gray;
+}
+.A-logo {
+width: 1rem;
+}
