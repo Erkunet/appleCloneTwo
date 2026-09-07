@@ -1,9 +1,90 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+
+/* ==== Main body Section ==== */
+
+.links-wrapper ul li a:hover {
+  color: black;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  /* padding-left: 10px; */
+}
+/* =====Shared styles ====== */
+
+.second-highlight-wrapper,
+.third-highlight-wrapper,
+.left-side-wrapper,
+.right-side-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+}
+
+/* second highlight style */
+/* .second-highlight-wrapper {
+  background-image: url(../Images/home/iphone11-pro-bg.jpg);
+} */
+third highlight style .third-highlight-wrapper {
+  background-image: url(../images/iphone11-pro-bg.jpg);
 }
