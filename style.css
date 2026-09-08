@@ -38,3 +38,46 @@ body {
   -webkit-box-pack: justify;
 }
 /* testing */
+.sixth-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.last-macbook-pro .model {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+.title {
+  color: #000;
+}
+.sub-title {
+  color: #000;
+}
+.last-macbook-pro {
+  background-image: url(./images/macbook-pro.jpg);
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: initial;
+  background-color: #fafafa;
+  height: 580px;
+  width: 48.5%;
+  padding-top: 54px;
+  text-align: center;
+  margin: 1% 0.5% 0% 1% ;
+}
+.the-new-ipad-part {
+background-image: url(./images/new-ipad.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: center;
+width: 48.5%;
+margin: 1% 1% 0% 0.5%;
+padding-top: 54px;
+height: 580px;
+}
+
+/* I think the code I provided is a CSS stylesheet that defines the styles for various sections of a webpage. It includes general styles for all elements, body font settings, and specific styles for sections like the fourth section, sixth section, and individual components like watch-part, card-part, last-macbook-pro, and the-new-ipad-part. The styles include layout properties such as display, flex-direction, justify-content, align-items, padding, margin, background images, and text alignment. */
