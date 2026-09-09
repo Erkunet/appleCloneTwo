@@ -190,6 +190,10 @@ img {
     right: 25px;
   }
 }
+/* second highlight style */
+.second-highlight-wrapper {
+  background-image: url(../appleCloneTwo/images/iphone11-pro-bg.jpg);
+}
 @media (min-width: 768px) {
   /*Nav bar*/
   .nav-item {
