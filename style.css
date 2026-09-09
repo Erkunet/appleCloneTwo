@@ -124,6 +124,10 @@ img {
     right: 25px;
   }
 }
+/* second highlight style */
+.second-highlight-wrapper {
+  background-image: url(../appleCloneTwo/images/iphone11-pro-bg.jpg);
+}
 @media (min-width: 768px) {
   /*Nav bar*/
   .nav-item {
@@ -172,15 +176,15 @@ img {
 }
 
 .BG-link {
-    background-color: black;
-    color: gray;
+  background-color: black;
+  color: gray;
 }
 
-.BG-link a{
-    color: gray;
+.BG-link a {
+  color: gray;
 }
 .A-logo {
-width: 1rem;
+  width: 1rem;
 }
 /* Footer Styling */
 .footer-wrapper {
@@ -290,22 +294,24 @@ width: 1rem;
   }
 }
 
-.ipad{background-image: url(./images\ copy/home/new-ipad.jpg);}
-.mac-pro{background-image: url(./images\ copy/home/macbook-pro.jpg);}
-
-.mac-pro{
-color: black;
-background-position: bottom;
-background-repeat: no-repeat;
-height: 36.25rem;
-
+.ipad {
+  background-image: url(./images\ copy/home/new-ipad.jpg);
+}
+.mac-pro {
+  background-image: url(./images\ copy/home/macbook-pro.jpg);
 }
 
-.ipad{
-color: black;
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-height: 36.25rem;
+.mac-pro {
+  color: black;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 36.25rem;
+}
 
+.ipad {
+  color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 36.25rem;
 }
