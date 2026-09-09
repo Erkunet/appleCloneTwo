@@ -40,6 +40,141 @@ img {
   padding: 4px 0;
   border-bottom: 1px solid #4b4b4b;
 }
+.links-wrapper {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.links-wrapper a {
+  font-size: 21px;
+  margin: 0 15px;
+  color: #0066cc;
+  text-decoration: none;
+}
+.links-wrapper a:hover {
+  color: black;
+}
+.links-wrapper ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.fa-chevron-right {
+  font-size: 15px;
+}
+.fourth-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* height: 625px; */
+  align-items: center;
+  padding-top: 54px;
+  gap: 15px;
+  color: #fff;
+}
+.description {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  color: #000;
+  text-align: center;
+}
+.watch-part {
+  background-image: url(./images/watch-series-5.jpg);
+  width: 48.5%;
+  height: 560px;
+  background-position: center;
+  background-size: cover;
+}
+/* .watch-part img {
+  object-fit: center;
+} */
+.watch-part img,
+.card-part img {
+  display: block; /* Turns the icon into a block element */
+  margin-left: auto; /* Pushes left margin evenly */
+  margin-right: auto; /* Pushes right margin evenly */
+  margin-bottom: 15px; /* Adds a little space underneath the icon */
+  max-height: 45px; /* Keeps the logo neatly sized */
+  width: auto;
+}
+.card-part {
+  background-image: url(./images/apple-card.jpg);
+  width: 48.5%;
+  height: 560px;
+  background-size: cover;
+  -webkit-box-pack: justify;
+  background-position: center;
+}
+
+.links-wrapper {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.links-wrapper a {
+  font-size: 21px;
+  margin: 0 15px;
+  color: #0066cc;
+  text-decoration: none;
+}
+.links-wrapper a:hover {
+  color: black;
+}
+.links-wrapper ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.sixth-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.last-macbook-pro .model {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+.title {
+  font-size: 56px;
+  font-weight: 700;
+  color: #000;
+}
+.sub-title {
+  color: #000;
+  font-size: 24px;
+}
+.last-macbook-pro {
+  background-image: url(./images/macbook-pro.jpg);
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: initial;
+  background-color: #fafafa;
+  height: 580px;
+  width: 48.5%;
+  padding-top: 54px;
+  text-align: center;
+  margin: 1% 0.5% 0% 1%;
+}
+.the-new-ipad-part {
+  background-image: url(./images/new-ipad.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+  height: 580px;
+}
+.ipad-description {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+}
 
 /* Footer Styling */
 .footer-wrapper {
@@ -123,6 +258,10 @@ img {
     position: absolute;
     right: 25px;
   }
+}
+/* second highlight style */
+.second-highlight-wrapper {
+  background-image: url(../appleCloneTwo/images/iphone11-pro-bg.jpg);
 }
 @media (min-width: 768px) {
   /*Nav bar*/
