@@ -1,35 +1,251 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* General Styling*/
 body {
-    
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-/*third-section style*/
-.iphone-11{
-    background-image: url("../appleCloneTwo/images/iphone11-bg.jpg");
-    min-height: 580px;
-    background-position: center;
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
 
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
 }
-.text{
-    padding-top: 40px;
-    text-align: center;
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
 }
-.iphone11-heading{
-    font-weight: bolder;
+.footer-wrapper ul a {
+  color: #515154;
+  text-decoration: none;
 }
-.list-style1{
-    display: inline-flex;
-    list-style: none;
-    gap: 8px;
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li a {
+  border-right: 1px solid #d2d2d7;
+  padding: 0 5px;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
 
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
 }
-ul li a { 
-   
-    text-decoration: none;
+.footer-wrapper ul li {
+  padding: 4px 0;
 }
-/*
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
+
+/* ==== Main body Section ==== */
+
+.links-wrapper ul li a:hover {
+  color: black;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  /* padding-left: 10px; */
+}
+/* =====Shared styles ====== */
+
+.second-highlight-wrapper,
+.third-highlight-wrapper,
+.left-side-wrapper,
+.right-side-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* second highlight style */
+.second-highlight-wrapper {
+  background-image: url(../appleCloneTwo/images/iphone11-pro-bg.jpg);
+}
+.fourth-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* height: 625px; */
+  align-items: center;
+  padding-top: 54px;
+  gap: 15px;
+  color: #fff;
+}
+.description {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  color: #000;
+}
+.watch-part {
+  background-image: url(./images/watch-series-5.jpg);
+  width: 48.5%;
+  height: 560px;
+  background-position: center;
+  background-size: cover;
+}
+.card-part {
+  background-image: url(./images/apple-card.jpg);
+  width: 48.5%;
+  height: 560px;
+  background-size: cover;
+  -webkit-box-pack: justify;
+}
+/* testing */
+.sixth-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.last-macbook-pro .model {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+.title {
+  color: #000;
+}
+.sub-title {
+  color: #000;
+}
+.last-macbook-pro {
+  background-image: url(./images/macbook-pro.jpg);
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: initial;
+  background-color: #fafafa;
+  height: 580px;
+  width: 48.5%;
+  padding-top: 54px;
+  text-align: center;
+  margin: 1% 0.5% 0% 1% ;
+}
+.the-new-ipad-part {
+background-image: url(./images/new-ipad.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: center;
+width: 48.5%;
+margin: 1% 1% 0% 0.5%;
+padding-top: 54px;
+height: 580px;
+}
+
+/* I think the code I provided is a CSS stylesheet that defines the styles for various sections of a webpage. It includes general styles for all elements, body font settings, and specific styles for sections like the fourth section, sixth section, and individual components like watch-part, card-part, last-macbook-pro, and the-new-ipad-part. The styles include layout properties such as display, flex-direction, justify-content, align-items, padding, margin, background images, and text alignment. */
